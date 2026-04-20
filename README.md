@@ -58,11 +58,6 @@ On the held-out test set, the final GRU model achieves approximately:
 
 The model captures the **overall trend** of WTI prices reasonably well, although short-term spikes and sudden shocks are harder to predict, which is expected for financial time series.
 
-## Files
-
-- `notebooks/` or `<your_notebook>.ipynb` – main notebook with data preprocessing, model training and evaluation.
-- (Optional) `data/` – sample CSV or link/instructions to download the Kaggle dataset.
-
 ## Future Work
 
 - Compare GRU with other models (LSTM, ARIMA, classical ML baselines).
